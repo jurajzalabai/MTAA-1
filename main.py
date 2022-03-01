@@ -8,10 +8,10 @@ import proxy
 
 
 if __name__ == '__main__':
-    #ipadress = input()
+    ipaddress = input()
     #PORT = int(input())
     #HOST = input()
-    ipaddress = "147.175.163.113"
+    #ipaddress = "147.175.163.113"
     PORT = 5060
     HOST = "0.0.0.0"
     proxy.recordroute = "Record-Route: <sip:%s:%d;lr>" % (ipaddress, PORT)
